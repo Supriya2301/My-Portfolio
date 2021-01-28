@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="typingspeed.css" rel="stylesheet">
+    <title>Typing Speed</title>
+</head>
+<body>
+    <header>
+        <nav>
+           <div class="header">
+               <a href="index.html" class="home">Home</a>
+           </div>
+        </nav>
+    </header>
+
+<div class="container">
+     <h1>Typing Speed Test</h1>
+     <img src="ss 1.png" id="gui-image">
+     <div class="introduction">
+         <h2>Introduction</h2>
+         <ul>
+             <li>basic GUI desktop application made using Python Tkinter GUI tool.</li>
+             <li>calculates the typing speed of the users. </li>
+             <li>time limit for the user to type is 1 min </li>
+             <li>Score increases only when user hits the right word </li>
+             <li>final output is WPM ,Total Score  and Accuracy </li>
+         </ul>
+        </div>
+    <div class="libraries">
+        <h2>Python Libraries</h2>
+        <ul>
+            <li>TKINTER and Timeit libraries are used for GUI and calculation of time</li>
+            <li>Random function is used to fetch the random words </li>
+            <li>Timer will be started as soon as window starts
+            </li>
+            <li>Time left will be visible on top right corner as soon as the user hits enter
+            </li>
+        </ul>
+        
+    </div>
+     <div class="calculations">
+         <h2>Calculations</h2>
+         <p>a list is created to keep all the inputs from user and traverse the list to get the total length of characters
+        </p>
+        <p>another list is created to keep all the correct inputs and traverse to count the total correct length of characters  </p>
+        <p>WPM = (total length of characters)*60/5*(total time)</p>
+        <p>Accuracy = correct length of characters*100/total characters</p>
+        <p>Total Score  = correct hit - miss
+        </p>
+     </div>
+     <div class="modify">
+         <h2>This GUI is made for three levels: </h2>
+         <p class="levels">
+             Beginner -------------> basic and simple words <br>
+            Intermediate ---------> tougher than beginner<br>
+            Advanced ----------> complicated Words<br>
+            </p>
+     </div>
+     <div class="final-ss">
+         <h4 class="final">Here is the glimpse of the second interface of this project once you choose the level. This is for hard level.</h4>
+         <img src="ss 2.png" alt="screenshot of working project" id="image-2">
+     </div>
+</div>    
+    
+</body>
+</html>

@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: left;
+  }
+nav {
+    /* max-width: 1170px; */
+    width: 100%;
+    height: 3rem;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 0.8;
+    background-color: #000;
+    
+
+}
+.header a {
+    line-height: 3rem;
+    padding: 0 1.5rem;
+    color: white;
+    display: block;
+    padding-left: 3rem;
+    float: left;
+    transition: all 0.5s;
+    float: left;
+    
+  }
+  .header a:hover {
+    background-color: #00008b;
+    cursor: pointer;
+  }
+ .container {
+     padding-top: 4rem;
+      text-align: center;
+     padding-left: 20rem;
+     padding-right: 20rem;
+     background-color: darkturquoise;
+     
+
+ } 
+ #gui-image {
+   
+    width: 100%;
+    height: 30rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    border-style:groove;
+
+ }
+ .introduction {
+     background-color:azure;
+ }
+ .introduction h2 {
+     text-align: center;
+ }
+ 
+ .introduction li {
+     padding-top: 2rem;
+     list-style-type: none;
+     font-weight: bold;
+     text-align: center;
+     list-style-type: square;
+     list-style-position: inside;
+     color: #0f1e3b;
+ }
+ .libraries {
+    background-color: azure;
+ }
+ .libraries li {
+     padding-top: 2rem;
+     list-style-type: circle;
+     list-style-position: inside;
+     font-weight: bold;
+     color: #0f1e3b;
+ }
+ .libraries h2 {
+     padding-top: 2rem;
+ }
+ .calculations {
+     background-color: azure;
+     padding-top: 2rem;
+ }
+ .calculations p {
+     padding-top: 2rem;
+     font-weight: bold;
+ }
+p:hover {
+     color: #03102c;
+ }
+ li:hover {
+    color: #03102c;
+ }
+
+ .modify {
+     background-color: #f0ffff;
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+ }
+ .modify h2 {
+     padding-bottom: 2rem;
+ }
+ 
+ .final-ss h4 {
+     padding-top: 2rem;
+     padding-bottom: 1rem;
+ }
+ #image-2 {
+    width: 100%;
+    height: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem ;
+    border-style: ridge;
+ }

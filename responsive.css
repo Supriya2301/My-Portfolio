@@ -1,0 +1,40 @@
+@media all and (max-width: 1000px) {
+    .skills .skill {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media all and (max-width: 670px)
+{  
+    .container {
+        visibility: hidden;
+    }
+
+
+    .menu-icon {
+        visibility: visible;
+    }
+    .content .right {
+        display: block;
+    }
+    .content .left {
+        display: block;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    .skills .skill {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 3rem;
+        padding-left: 2rem
+    }
+    footer .icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
