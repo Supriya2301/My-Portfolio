@@ -132,7 +132,7 @@ a {
 }
 .skills {
   height: 20rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .skills h2 {
   text-align: center;
@@ -144,7 +144,7 @@ a {
     display: inline-flex;
     margin: 0 auto;
     justify-content: space-between; 
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 .skills img {
     height: 8rem;
